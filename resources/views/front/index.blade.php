@@ -12,7 +12,7 @@
                 <div class="w-5 h-5 flex shrink-0 overflow-hidden">
                     <img src="{{ Storage::url($hero->banner)}}" class="object-contain" alt="icon">
                 </div>
-                <p class="font-semibold text-sm">{{ $hero->achievment }}</p>
+                <p class="font-semibold text-sm">{{ $hero->achievement }}</p>
             </div>
             <div class="flex flex-col gap-[10px]">
                 <h1 class="font-extrabold text-[50px] leading-[65px] max-w-[536px]">{{$hero->heading}}</h1>
@@ -179,7 +179,7 @@
         <div class="carousel-card container max-w-[1130px] w-full flex flex-wrap justify-between items-center lg:mx-[calc((100vw-1130px)/2)]">
             <div class="testimonial-container flex flex-col gap-[112px] w-[565px]">
                 <div class="flex flex-col gap-[30px]">
-                    <div class="h-9 overflow-hidden">
+                    <div class="h-auto overflow-hidden">
                         <img src="{{ Storage::url($testimonial->client->logo)}}" class="object-contain" alt="icon">
                     </div>
                     <div class="relative pt-[27px] pl-[30px]">

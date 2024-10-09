@@ -5,7 +5,7 @@
         <x-navbar />
     </div>
 </div>
-<div id="Teams" class="w-full px-[10px] relative z-10">
+<div id="Teams" class="w-full px-[10px] relative ">
     <div class="container max-w-[1130px] mx-auto flex flex-col gap-[50px] items-center">
         <div class="flex flex-col gap-[50px] items-center">
             <div class="breadcrumb flex items-center justify-center gap-[30px]">
